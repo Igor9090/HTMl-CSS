@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font: bold 20px 'Arial';
+        }
+
+        a{
+            color: #5487b6;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #0461b8;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: rgb(0, 0, 0);
+        }
+
+        a::before{
+            content: '⇒ ';
+        }
+
+        a::after {
+            content: ' ⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+    <li><a href="https://www.youtube.com/watch?v=K4DyBUG242c" target="_blank">Cartoon - On & on</a>
+    <li><a href="https://www.youtube.com/watch?v=Z6L4u2i97Rw" target="_blank">NEFFEX - Careless</a>
+    <li><a href="https://www.youtube.com/watch?v=kddC4gi72UE" target="_blank">Rival x Cadmium - Willow Tree</a>
+    </ul>
+</body>
+</html>

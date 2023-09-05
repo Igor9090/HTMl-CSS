@@ -1,0 +1,12 @@
+div {
+    text-align: center;
+    display: inline-block;
+    background-color: #d7edfa;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+div:hover {
+    background-color: #10a3f8;
+}

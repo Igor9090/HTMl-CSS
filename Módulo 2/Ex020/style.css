@@ -1,0 +1,39 @@
+body{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(184, 184, 184, 0.637);
+}
+
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    padding-left: 10px;
+}
+
+p {
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.principal {
+    color: white;
+    padding: 15px;
+    background-color: rgb(22, 22, 22);
+}
+
+.basico {
+    color: #ec0707bd;
+}
+
+.intermediario {
+    color: #3107ecbd;
+}
+
+.avancado {
+    color: #07ec949d;
+}
