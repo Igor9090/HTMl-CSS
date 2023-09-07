@@ -7,7 +7,7 @@
     --font3: 'Sriracha', cursive;
     
 }
-body{
+html, body{
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
@@ -27,28 +27,46 @@ body{
 }
 
 .cabecalho p {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     font-size: 16px;
     font-family: var(--font1);
     
 }
 
-.cabecalho a {
+a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 
-.normal {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
     padding: 30px;
-    background-color: white;
-    font: 5.5vh var(--font3);
+    font: 5vh var(--font3);
     font-weight: 200;
 }
 
-.imagem1 {
-    background-image: url(../img/background001.jpg);
+.normal {
+    background-color: white;
 }
 
-.imagem2{
+.imagem{
+    background-color: rgb(58, 58, 58);
+    color: white;
     background-image: url(../img/background002.jpg);
+}
+
+.imagem p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
